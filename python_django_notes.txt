@@ -1,0 +1,5 @@
+django-admin startproject <name of the project>
+--create django project files.
+
+py manage.py runserver <server-port:optional>
+--Run server
