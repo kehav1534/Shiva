@@ -3,3 +3,12 @@ django-admin startproject <name of the project>
 
 py manage.py runserver <server-port:optional>
 --Run server
+
+py -m venv .venv
+--creates virtual env
+
+py .venv\Scripts\Activate
+--Activates the virtual envionment
+
+Deactivate
+--deactivated the virtual environment
