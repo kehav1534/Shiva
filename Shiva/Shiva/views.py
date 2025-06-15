@@ -7,4 +7,4 @@ def hompage(request):
     return render(request, 'home.html')
 
 def about(request):
-    return HttpResponse("My about page.")
+    return render(request, 'about.html')

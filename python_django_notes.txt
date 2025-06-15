@@ -12,3 +12,6 @@ py .venv\Scripts\Activate
 
 Deactivate
 --deactivated the virtual environment
+
+py manage.py startapp <app-name>
+--Creates an app in django project
